@@ -32,9 +32,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2">
-          <div className="w-9 h-9 overflow-hidden rounded-lg flex-shrink-0">
-            <Image src="/logoEconomiaRecortado.png" alt="NexoBot" width={36} height={36} style={{ objectFit: "cover", display: "block" }} />
-          </div>
+          <Image src="/logoEconomiaRecortado.png" alt="NexoBot" width={72} height={43} className="rounded-lg flex-shrink-0" style={{ display: "block" }} />
           <span className="text-white font-bold text-xl tracking-tight">NexoBot</span>
         </a>
 

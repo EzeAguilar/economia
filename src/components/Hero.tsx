@@ -114,7 +114,7 @@ export default function Hero() {
               <div className="bg-slate-900 rounded-3xl border border-slate-700/50 shadow-2xl overflow-hidden">
                 {/* Chat header */}
                 <div className="bg-slate-800/80 px-4 py-3 flex items-center gap-3 border-b border-slate-700/50">
-                  <div className="w-10 h-10 rounded-full overflow-hidden shrink-0">
+                  <div className="w-14 h-14 rounded-full overflow-hidden shrink-0">
                     <img src="/logoEconomiaRecortado.png" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                   </div>
                   <div>

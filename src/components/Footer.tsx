@@ -8,9 +8,7 @@ export default function Footer() {
     <footer className="border-t border-slate-800/60 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <a href="#" className="flex items-center gap-2">
-          <div className="w-9 h-9 overflow-hidden rounded-lg flex-shrink-0">
-            <Image src="/logoEconomiaRecortado.png" alt="NexoBot" width={36} height={36} style={{ objectFit: "cover", display: "block" }} />
-          </div>
+          <Image src="/logoEconomiaRecortado.png" alt="NexoBot" width={72} height={43} className="rounded-lg flex-shrink-0" style={{ display: "block" }} />
           <span className="text-white font-bold text-lg">NexoBot</span>
         </a>
 
