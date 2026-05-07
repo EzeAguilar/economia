@@ -8,11 +8,14 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Nexo — Tu negocio siempre disponible",
+  title: "NexoBot — Tu negocio siempre disponible",
   description:
     "Automatizá las consultas de WhatsApp e Instagram sobre stock, precios y disponibilidad con un chatbot inteligente. Soluciones para farmacias, ferreterías, distribuidoras y más.",
+  icons: {
+    icon: "/logoEconomiaRecortado.png",
+  },
   openGraph: {
-    title: "Nexo — Tu negocio siempre disponible",
+    title: "NexoBot — Tu negocio siempre disponible",
     description:
       "Chatbot inteligente para WhatsApp e Instagram. Tu negocio responde solo, 24/7.",
     type: "website",

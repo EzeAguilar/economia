@@ -1,5 +1,5 @@
 export const WHATSAPP_NUMBER = "542914252047"
-export const WHATSAPP_MESSAGE = "Hola, me interesa Nexo para mi negocio."
+export const WHATSAPP_MESSAGE = "Hola, me interesa NexoBot para mi negocio."
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
 
 export const PACKAGES = [
@@ -77,7 +77,7 @@ export const FAQ_ITEMS = [
   {
     question: "¿El servicio funciona solo para farmacias?",
     answer:
-      "No. Aunque la idea nació pensando en farmacias, Nexo sirve para cualquier negocio que gestione consultas sobre stock: ferreterías, distribuidoras, tiendas de ropa, veterinarias, y más.",
+      "No. Aunque la idea nació pensando en farmacias, NexoBot sirve para cualquier negocio que gestione consultas sobre stock: ferreterías, distribuidoras, tiendas de ropa, veterinarias, y más.",
   },
   {
     question: "¿El bot puede responder en horarios específicos?",

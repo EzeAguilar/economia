@@ -1,7 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { MessageCircle, Menu, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
+import Image from "next/image"
 import { WHATSAPP_LINK } from "@/lib/constants"
 
 const NAV_LINKS = [
@@ -31,10 +32,10 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center">
-            <MessageCircle className="w-5 h-5 text-white" />
+          <div className="w-9 h-9 overflow-hidden rounded-lg flex-shrink-0">
+            <Image src="/logoEconomiaRecortado.png" alt="NexoBot" width={36} height={36} style={{ objectFit: "cover", display: "block" }} />
           </div>
-          <span className="text-white font-bold text-xl tracking-tight">Nexo</span>
+          <span className="text-white font-bold text-xl tracking-tight">NexoBot</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

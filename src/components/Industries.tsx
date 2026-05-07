@@ -80,7 +80,7 @@ export default function Industries() {
             </span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            Nexo arrancó pensado para farmacias, pero hoy sirve para cualquier
+            NexoBot arrancó pensado para farmacias, pero hoy sirve para cualquier
             negocio que gestione stock y consultas de clientes.
           </p>
         </motion.div>
