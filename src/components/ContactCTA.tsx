@@ -3,7 +3,6 @@
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { MessageCircle, ArrowRight } from "lucide-react"
-import { WHATSAPP_LINK } from "@/lib/constants"
 
 export default function ContactCTA() {
   const ref = useRef(null)
@@ -38,9 +37,7 @@ export default function ContactCTA() {
             </p>
 
             <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#en-desarrollo"
               className="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-400 text-white font-semibold px-8 py-4 rounded-2xl transition-all hover:shadow-2xl hover:shadow-emerald-500/30 group text-base"
             >
               <MessageCircle className="w-5 h-5" />

@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 import Image from "next/image"
-import { WHATSAPP_LINK } from "@/lib/constants"
 
 const NAV_LINKS = [
   { label: "Cómo funciona", href: "#como-funciona" },
@@ -50,9 +49,7 @@ export default function Navbar() {
 
         <div className="hidden md:block">
           <a
-            href={WHATSAPP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#en-desarrollo"
             className="bg-emerald-500 hover:bg-emerald-400 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
           >
             Quiero mi bot
@@ -81,9 +78,8 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={WHATSAPP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#en-desarrollo"
+            onClick={() => setMenuOpen(false)}
             className="mt-3 block text-center bg-emerald-500 hover:bg-emerald-400 text-white text-sm font-medium px-4 py-2.5 rounded-lg transition-colors"
           >
             Quiero mi bot

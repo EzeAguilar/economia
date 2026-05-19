@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import { ArrowRight, MessageCircle } from "lucide-react"
-import { WHATSAPP_LINK } from "@/lib/constants"
 
 const CHAT_MESSAGES = [
   { from: "user", text: "Tienen ibuprofeno 400mg?" },
@@ -71,9 +70,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#en-desarrollo"
                 className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-semibold px-6 py-3.5 rounded-xl transition-all hover:shadow-xl hover:shadow-emerald-500/25 group"
               >
                 <MessageCircle className="w-5 h-5" />

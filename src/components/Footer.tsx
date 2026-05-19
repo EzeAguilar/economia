@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { WHATSAPP_LINK } from "@/lib/constants"
 
 const YEAR = new Date().getFullYear()
 
@@ -16,7 +15,7 @@ export default function Footer() {
           Automatización de consultas para negocios argentinos.
         </p>
 
-        <div className="flex items-center gap-6 text-slate-500 text-sm">
+        <div className="flex flex-wrap justify-center items-center gap-6 text-slate-500 text-sm">
           <a
             href="#como-funciona"
             className="hover:text-slate-300 transition-colors"
@@ -30,9 +29,7 @@ export default function Footer() {
             Servicios
           </a>
           <a
-            href={WHATSAPP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#en-desarrollo"
             className="hover:text-slate-300 transition-colors"
           >
             Contacto

@@ -3,7 +3,7 @@
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { Check, Sparkles } from "lucide-react"
-import { PACKAGES, WHATSAPP_LINK } from "@/lib/constants"
+import { PACKAGES } from "@/lib/constants"
 
 export default function Services() {
   const ref = useRef(null)
@@ -30,7 +30,7 @@ export default function Services() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch max-w-3xl mx-auto">
           {PACKAGES.map((pkg, i) => (
             <motion.div
               key={pkg.id}
@@ -72,9 +72,7 @@ export default function Services() {
               </ul>
 
               <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#en-desarrollo"
                 className={`block text-center font-semibold px-6 py-3 rounded-xl transition-all text-sm ${
                   pkg.highlight
                     ? "bg-emerald-500 hover:bg-emerald-400 text-white hover:shadow-lg hover:shadow-emerald-500/25"

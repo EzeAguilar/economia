@@ -15,7 +15,8 @@
       "Bash(git push *)",
       "Bash(vercel *)",
       "Bash(node *)",
-      "PowerShell(Copy-Item *)"
+      "PowerShell(Copy-Item *)",
+      "Bash(sed 's/<[^>]*>//g')"
     ]
   }
 }

@@ -8,12 +8,13 @@ export const PACKAGES = [
     name: "Starter",
     tagline: "Para arrancar rápido",
     description:
-      "Ideal para negocios que quieren automatizar consultas sin complicaciones.",
+      "Para empezar sin complicarse. Bajo costo y fácil de implementar en comercios chicos.",
     features: [
       "Chatbot 24/7 en WhatsApp e Instagram",
       "Respuestas sobre stock y disponibilidad",
       "Catálogo de productos configurable",
       "Mensajes personalizados con tu marca",
+      "Si el negocio no tiene base de datos, se la configuramos",
       "Soporte por correo",
     ],
     highlight: false,
@@ -22,36 +23,21 @@ export const PACKAGES = [
   {
     id: "business",
     name: "Business",
-    tagline: "Conectado a tu negocio",
-    description:
-      "Para negocios que ya tienen sistema de gestión y quieren sincronizarlo con el bot.",
-    features: [
-      "Todo lo del plan Starter",
-      "Conexión a tu base de datos existente",
-      "Stock en tiempo real",
-      "Sincronización automática de precios",
-      "Reportes mensuales de consultas",
-      "Soporte prioritario",
-    ],
-    highlight: true,
-    cta: "Consultar",
-  },
-  {
-    id: "full",
-    name: "Full",
     tagline: "Solución completa",
     description:
-      "Digitalizamos tu negocio de cero: base de datos, panel web y bot integrado.",
+      "El plan completo. Pensado para comercios que quieren llevar todo a un mismo lugar.",
     features: [
-      "Todo lo del plan Business",
-      "Diseño e implementación de base de datos",
+      "Todo lo del plan Starter",
+      "Stock en tiempo real",
+      "Sincronización automática de precios",
       "Panel web de gestión de stock",
       "Múltiples usuarios con roles",
       "Historial de movimientos y auditoría",
+      "Reportes mensuales de consultas",
       "Capacitación incluida",
-      "Soporte dedicado",
+      "Soporte prioritario",
     ],
-    highlight: false,
+    highlight: true,
     cta: "Consultar",
   },
 ]
