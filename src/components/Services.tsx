@@ -54,9 +54,27 @@ export default function Services() {
                 <h3 className="text-white font-bold text-2xl mb-1">
                   {pkg.name}
                 </h3>
-                <p className="text-emerald-400 text-sm font-medium mb-3">
+                <p className="text-emerald-400 text-sm font-medium mb-4">
                   {pkg.tagline}
                 </p>
+
+                <div className={`rounded-xl p-4 mb-4 ${pkg.highlight ? "bg-emerald-950/40 border border-emerald-500/20" : "bg-slate-800/40 border border-slate-700/50"}`}>
+                  <div className="flex items-baseline gap-1 mb-1">
+                    <span className="text-slate-400 text-xs">ARS</span>
+                    <span className="text-white font-bold text-3xl">
+                      {pkg.initialPrice.toLocaleString("es-AR")}
+                    </span>
+                  </div>
+                  <p className="text-slate-500 text-xs mb-3">costo inicial</p>
+                  <div className="border-t border-slate-700/50 pt-3 flex items-baseline gap-1">
+                    <span className="text-slate-400 text-xs">ARS</span>
+                    <span className="text-slate-300 font-semibold text-lg">
+                      {pkg.monthlyPrice.toLocaleString("es-AR")}
+                    </span>
+                    <span className="text-slate-500 text-xs">/mes mantenimiento</span>
+                  </div>
+                </div>
+
                 <p className="text-slate-400 text-sm leading-relaxed">
                   {pkg.description}
                 </p>

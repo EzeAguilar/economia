@@ -9,6 +9,8 @@ export const PACKAGES = [
     tagline: "Para arrancar rápido",
     description:
       "Para empezar sin complicarse. Bajo costo y fácil de implementar en comercios chicos.",
+    initialPrice: 70000,
+    monthlyPrice: 25000,
     features: [
       "Chatbot 24/7 en WhatsApp e Instagram",
       "Respuestas sobre stock y disponibilidad",
@@ -26,6 +28,8 @@ export const PACKAGES = [
     tagline: "Solución completa",
     description:
       "El plan completo. Pensado para comercios que quieren llevar todo a un mismo lugar.",
+    initialPrice: 220000,
+    monthlyPrice: 80000,
     features: [
       "Todo lo del plan Starter",
       "Stock en tiempo real",
